@@ -8,7 +8,7 @@ import Cart from "./components/Cart";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/ecommerce-app">
       <CatagoryProvider>
         <Header />
         <Routes>
